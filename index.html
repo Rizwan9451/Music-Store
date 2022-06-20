@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="shortcut icon" href="https://png.pngtree.com/element_our/png/20181022/music-and-live-music-logo-with-neon-light-effect-vector-png_199406.jpg" type="image/x-icon">
+    <style>
+        body {
+            background-image: url('https://free4kwallpapers.com/uploads/originals/2021/01/20/music-wallpaper.jpg');
+            background-size: 100%;
+        }
+
+        .head1 {
+            font-family: serif;
+            font-size: 60px;
+            color: rgb(39, 5, 53);
+            text-shadow: 2px 2px 5px rgb(90, 17, 112);
+            -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+            justify-content: center;
+            margin: 2px 588px;
+            animation: text;
+            animation-duration: 1s;
+
+        }
+        @keyframes text{
+            from{
+                font-size: 10px;
+            }
+            to{
+                font-size: 60px;
+            }
+        }
+
+        .navbar {
+            background-color: aquamarine;
+            border-radius: 25px;
+            clear: both;
+            box-shadow:1px 1px 3px rgb(24, 160, 160);
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(39, 5, 53);
+        }
+
+        .navbar li a:hover {
+            color: rgb(247, 23, 79);
+        }
+
+        .navbar input {
+            float: right;
+            padding: auto;
+            margin: 20px;
+            border-radius: 5px;
+            border-color: blue;
+            width: 250px;
+        }
+
+        img {
+            width: 100px;
+            margin: 1px 1px;
+            float: right;
+            clear: both;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .btn .btn1 {
+
+            padding: 15px 80px;
+            background-color: rgb(73, 233, 233);
+            border-radius: 25px;
+            border-color: rgb(73, 233, 233);
+            background-origin: border-box;
+            margin-left: 30px;
+            clear: both;
+            font-size: 25px;
+            font-weight: bold;
+            color: black;
+            border: none;
+
+
+        }
+
+        .btn .btn2 {
+
+            padding: 15px 80px;
+            background-color: rgb(73, 233, 233);
+            border-radius: 25px;
+            border-color: rgb(73, 233, 233);
+            background-origin: border-box;
+            margin: 10px;
+            clear: both;
+            font-size: 25px;
+            font-weight: bold;
+            color: black;
+            border: none;
+
+        }
+
+        .btn1:hover {
+            color: cornsilk;
+            opacity: 0.8;
+            background-color: rgb(247, 23, 79);
+        }
+
+        .btn2:hover {
+            color: cornsilk;
+            opacity: 0.8;
+            background-color: rgb(247, 23, 79);
+        }
+        #image img{
+            float: right;
+            background-size: 50%;
+            width: 30%;
+            height: 50%;
+            box-shadow: 4px 4px 6px rgb(46, 9, 58) ;
+            animation: image;
+            animation-duration: 2s;
+            animation-delay: 3s;
+        }
+        @keyframes image{
+            from{
+                width: 0%;
+                height: 0%;
+            }
+            to{
+                width: 30%;
+                height: 50%;
+            }
+        }
+        #quote {
+            width: 35%;
+            font-size: 60px;
+            margin-left: 35px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 1px 2px 4px rgb(187, 34, 207);
+            color: rgb(71, 9, 71);
+            animation-name: rizwan;
+            animation-duration: 3s;
+        }
+        @keyframes rizwan{
+            from{
+                 font-size: 0px;
+            }
+            to {
+                font-size: 60px;
+            }
+        }
+        .container {
+            border: 3px solid rgb(46, 6, 46);
+            background-color: rgb(71, 9, 71);;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+
+        .box {
+            /* border: 2px solid aqua; */
+            box-shadow: 2px 2px 5px rgb(224, 130, 204),3px 3px 5px aquamarine;
+            display: inline-block;
+            /* margin: 1px; */
+            clear: both;
+            width: 33%;
+            margin: 1px;
+            height: 250px;
+        }
+
+        .box a img {
+            width: 100%;
+            height: 100%;
+            margin: 2px;
+            cursor: pointer;
+            position: relative;
+            transition-property: all;
+            transition-duration: 2s;
+        }
+        .box a img:hover{
+            width: 120%;
+            height: 120%;
+        }
+        .xbox {
+            /* border: 2px solid aqua; */
+            box-shadow: 2px 2px 5px rgb(224, 130, 204),3px 3px 5px aquamarine;
+            display: inline;
+            /* margin: 1px; */
+            clear: both;
+            width: 33%;
+            margin: 1px;
+            height: 250px;
+        }
+
+        .xbox a img {
+            width: 100%;
+            height: 100%;
+            margin: 2px;
+            cursor: pointer;
+            /* position: relative; */
+            transition-property: all;
+            transition-duration: 2s;
+        }
+        .xbox a img:hover{
+            width: 120%;
+            height: 120%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <img src="https://clipartcraft.com/images/rolls-royce-logo-high-resolution-1.png" alt="Error">
+    <h2 class="head1">Music Store</h2>
+    <div>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Music_store">About</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="http://127.0.0.1:5500/contact.html">Contact us</a></li>
+                    <div class="search">
+                        <input type="text" name="search" placeholder="   search this website">
+                    </div>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <br>
+    <div id="image">
+        <img src="https://images.unsplash.com/photo-1524567248408-cbfd37e65e2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1728&q=80" alt="Error">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br><br><br>
+    
+    <div id="quote">
+        <span>Music gives color to the air of the moment.</span>
+    </div>
+    <br><br><br><br><br>
+    <div class="btn">
+        <a href="http://localhost/login/login.php" class="btn1" target="_blank">Log in</a>
+        <a href="http://localhost/login/register.php" class="btn2" target="_blank">Sign up</a>
+    </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+    <div class="container">
+        <div class="box"> <a href="https://www.youtube.com/watch?v=DQ2Ru2obvQE" target="_blank"> <img
+                    src="https://i.ytimg.com/vi/JURZ4ZgJR4s/maxresdefault.jpg" alt="Error"> </a> </div>
+        <div class="box"> <a href="https://www.youtube.com/watch?v=UB0131eazfk" target="_blank"> <img
+                    src="https://i.pinimg.com/originals/b5/39/24/b539241cdde211b167ef1e39a5226b53.jpg" alt="Error"> </a>
+        </div>
+        <div class="box"> <a href="https://www.youtube.com/watch?v=ALH-lcPFRmQ" target="_blank"> <img
+                    src="https://i.ytimg.com/vi/ALH-lcPFRmQ/maxresdefault.jpg"
+                    alt=""> </a> </div>
+        <div class="xbox"> <a href="https://www.youtube.com/watch?v=v7ql7WEsfQI" target="_blank"> <img
+                    src="https://i.ytimg.com/vi/iFgcSqyR5RM/maxresdefault.jpg" alt="Error"> </a> </div>
+        <div class="xbox"> <a href="https://www.youtube.com/watch?v=HPkydJOXXNs&t=71s" target="_blank"> <img
+                    src="https://i.ytimg.com/vi/dYZqLi-5lxQ/maxresdefault.jpg" alt="Error"> </a> </div>
+        <div class="xbox"> <a href="https://www.youtube.com/watch?v=zE1jz36V88M" target="_blank"> <img
+                    src="https://i.ytimg.com/vi/ncOd_UKAGNc/maxresdefault.jpg" alt="Error"> </a> </div>
+    </div>
+</body>
+
+</html>
